@@ -1,0 +1,79 @@
+{
+    "valid_auth": false,
+    "count": 1,
+    "limit": 1,
+    "total": 1,
+    "last_page": 1,
+    "result": [
+        {
+            "id": 3932,
+            "cospar_id": "",
+            "sort_date": "1710417600",
+            "name": "Starship Flight Test 3",
+            "provider": {
+                "id": 1,
+                "name": "SpaceX",
+                "slug": "spacex"
+            },
+            "vehicle": {
+                "id": 115,
+                "name": "Starship Prototype",
+                "company_id": 1,
+                "slug": "starship-prototype"
+            },
+            "pad": {
+                "id": 114,
+                "name": "Launch Pad",
+                "location": {
+                    "id": 89,
+                    "name": "Starbase, Boca Chica",
+                    "state": "TX",
+                    "statename": "Texas",
+                    "country": "United States",
+                    "slug": "boca-chica-launch-site"
+                }
+            },
+            "missions": [
+                {
+                    "id": 5902,
+                    "name": "Starship Flight Test 3",
+                    "description": "Launch will consist of Booster 10 and Ship 28. Goals for this flight include orbital speed and altitude insertion (but will not complete an orbit), in-orbit fuel transfer test, payload door test, and soft landings on water for both ship and booster."
+                }
+            ],
+            "mission_description": "Launch will consist of Booster 10 and Ship 28. Goals for this flight include orbital speed and altitude insertion (but will not complete an orbit), in-orbit fuel transfer test, payload door test, and soft landings on water for both ship and booster.",
+            "launch_description": "A SpaceX Starship Prototype rocket will launch the Starship Flight Test 3 mission on Thursday, March 14, 2024 at 12:00\u202fPM (UTC).",
+            "win_open": "2024-03-14T12:00Z",
+            "t0": null,
+            "win_close": "2024-03-14T14:31Z",
+            "est_date": {
+                "month": null,
+                "day": null,
+                "year": null,
+                "quarter": null
+            },
+            "date_str": "Mar 14",
+            "tags": [
+                {
+                    "id": 68,
+                    "text": "Suborbital"
+                },
+                {
+                    "id": 23,
+                    "text": "Test Flight"
+                }
+            ],
+            "slug": "starship-flight-test",
+            "weather_summary": null,
+            "weather_temp": null,
+            "weather_condition": null,
+            "weather_wind_mph": null,
+            "weather_icon": null,
+            "weather_updated": null,
+            "quicktext": "Starship Prototype - Starship Flight Test 3 - Thu Mar 14, 2024 12:00:00 UTC (L-02:40:40) - https:\/\/rocketlaunch.live\/launch\/starship-flight-test for info\/stream",
+            "media": [],
+            "result": -1,
+            "suborbital": false,
+            "modified": "2024-03-13T22:43:24+00:00"
+        }
+    ]
+}
