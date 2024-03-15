@@ -14,6 +14,7 @@ char api[] = "N:HTTPS://fdo.rocketlaunch.live/json/launches/next/1";
 // curl https://fdo.rocketlaunch.live/json/launches/next/2 | jq ".result[].quicktext"
 
 void print_wrap(const char* text) {
+    // based on code from ChatGPT
     int i;
     int len = strlen(text);
     int start = 0; // Start index of the current line in the text
