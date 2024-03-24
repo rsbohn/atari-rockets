@@ -2,11 +2,11 @@
 
 pkgs.stdenv.mkDerivation rec {
   name = "fujinet-lib-atari";
-  version = "2.2.1";
+  version = "3.0.2";
 
   src = pkgs.fetchurl {
-    url = "https://github.com/FujiNetWIFI/fujinet-lib/releases/download/v2.2.1/fujinet-lib-atari-2.2.1.zip";
-    sha256 = "sha256-M7KeK8eG5WK/q6AUtbkT51Dqn7gnV59gzYNAiuu7sEc="; 
+    url = "https://github.com/FujiNetWIFI/fujinet-lib/releases/download/v${version}/fujinet-lib-atari-${version}.zip";
+    sha256 = "sha256-a0hiDF7I96GPFZT5BVAFa396l7Rf24n0tRFvZ5bomvM="; 
   };
 
   buildInputs = [ pkgs.unzip ]; 

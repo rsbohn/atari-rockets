@@ -49,10 +49,10 @@ void print_wrap(const char* text) {
 }
 
 void print_field(char *query) {
-    uint8_t err;
+    uint8_t count;
     char *result = malloc(BSIZE);
-    err = network_json_query(api, query, result);
-    if (!err) {
+    count = network_json_query(api, query, result);
+    if (count > 0) {
         print_wrap(result);
         cputc(' ');
     } else {
@@ -84,3 +84,4 @@ int main(void) {
     }
     return 0;
 }
+
